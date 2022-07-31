@@ -50,7 +50,7 @@ public class Main
       }
 	
 	//* In order to test below 2 methods- preOrderTraversal/ postOrderTraversal- please uncomment from my Driver.java
-	//* Although not asked in the Lab 3 Question2, I have added this to cross check that my tree is indeed right skewed.
+	//* Although not asked in the Question2, I have added this to cross check that my tree is indeed right skewed.
 	//* These methods are purely for my validation that I have added
     
     public void preOrderTraversal(Node node) {
