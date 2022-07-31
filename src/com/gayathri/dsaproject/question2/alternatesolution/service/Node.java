@@ -31,7 +31,7 @@ public class Node {
 		
 		
 		//* In order to test below 2 methods- preOrder/ postOrder- please uncomment from my Main.java
-		//* Although not asked in the Question2, I have added this to cross check that my tree is indeed right skewed.
+		//* Although not asked in the Question 2, I have added this to cross check that my tree is indeed right skewed.
 		//* These methods are purely for my validation that I have added
 	        
 	      public  void preOrder(Node node) {
