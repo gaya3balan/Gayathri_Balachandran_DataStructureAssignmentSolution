@@ -32,13 +32,13 @@ class Main{
     	 
     	 Node object = new Node();
 		
-		 LinkedList<Integer> inorderList = new LinkedList<>();   //create my lookup arraylist to add the tree nodes  
+		 LinkedList<Integer> inorderList = new LinkedList<>();   //create my lookup linkedlist to add the tree nodes  
 		
-		 Main.addNodesToList(tree.node, inorderList); // call method to traverse the tree to copy node values to arraylist by passing root node and array list 
+		 Main.addNodesToList(tree.node, inorderList); // call method to traverse the tree to copy node values to linkedlist by passing root node and array list 
 		 
 		 object.delinkLeftRightNodes(tree.node);  //de-link left and right child of root
 		
-		 object.relinkNodesToRST(tree.node, inorderList); //re-link right nodes to root with values from arraylist by passing arraylist and root node 
+		 object.relinkNodesToRST(tree.node, inorderList); //re-link right nodes to root with values from linkedlist by passing linkedlist and root node 
 		 	 
 		 object.inOrder(tree.node);  //do the in-order traversal of the tree 
 		 
