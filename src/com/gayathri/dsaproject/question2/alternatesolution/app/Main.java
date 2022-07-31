@@ -32,7 +32,7 @@ class Main{
     	 
     	 Node object = new Node();
 		
-		 LinkedList<Integer> inorderList = new LinkedList<>();   //create my lookup arraylist to add the tree nodes for sum check 
+		 LinkedList<Integer> inorderList = new LinkedList<>();   //create my lookup arraylist to add the tree nodes  
 		
 		 Main.addNodesToList(tree.node, inorderList); // call method to traverse the tree to copy node values to arraylist by passing root node and array list 
 		 
